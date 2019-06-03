@@ -69,14 +69,17 @@ h5 {
 
 .search {
   padding-left: 56px;
-  padding-bottom: 19px;
   padding-top: 19px;
 }
 
 .search input[type=text] {
   height: 37px;
   width: 300px;
-  padding-left: 19px;
+  padding-left: 9px;
+}
+
+.Current-location, .Washington-and-State {
+  padding-bottom: 19px;
 }
 
 .suggestions {
