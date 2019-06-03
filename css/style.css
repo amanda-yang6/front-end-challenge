@@ -68,7 +68,15 @@ h5 {
 }
 
 .search {
-  height: 131px;
+  padding-left: 56px;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+.search input[type=text] {
+  height: 37px;
+  width: 300px;
+  padding-left: 19px;
 }
 
 .suggestions {
