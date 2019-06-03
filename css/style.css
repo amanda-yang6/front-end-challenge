@@ -1,0 +1,79 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* { margin: 0; padding: 0; }
+
+body {
+  background-color: white;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+.bus-list {
+  font-size: 18px;
+}
+
+.container {
+  font-size: 0;
+  text-align: left;
+  width: 375px;
+}
+
+.eastbound, .northbound, .southbound, .reroute, .out-of-service {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+/* Plan a trip */
+h1 {
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-top: 22px;
+}
+
+/* Search input*/
+h2 {
+  color: black;
+  font-size: 17px;
+  font-weight: lighter;
+  margin-left: 19px;
+}
+
+/* Bus number */
+h3 {
+  margin-left: 19px;
+  padding-top: 19px;
+}
+
+/* Destination */
+h4 {
+  float: right;
+  font-weight: lighter;
+  padding-top: 19px;
+}
+
+/* Frequency */
+h5 {
+  margin-left: 19px;
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 19px;
+}
+
+.route-data {
+  background-color: #367670;
+  height: 65px;
+  text-align: center;
+}
+
+.search {
+  height: 131px;
+}
+
+.suggestions {
+  background-color: #B0B0B0;
+  color: white;
+  height: 47px;
+  padding-top: 12px;
+}
