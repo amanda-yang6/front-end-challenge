@@ -32,9 +32,9 @@ h1 {
   padding-top: 22px;
 }
 
-/* Search input*/
+/* Suggested Routes */
 h2 {
-  color: black;
+  color: white;
   font-size: 17px;
   font-weight: lighter;
   margin-left: 19px;
@@ -72,12 +72,15 @@ h5 {
   padding-top: 19px;
 }
 
+/* Search text */
 .search input[type=text] {
+  font-size: 17px;
   height: 37px;
   width: 300px;
   padding-left: 9px;
 }
 
+/* Search boxes */
 .Current-location, .Washington-and-State {
   padding-bottom: 19px;
 }
