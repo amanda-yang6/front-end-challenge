@@ -30,26 +30,26 @@ body {
 /* Plan a trip */
 h1 {
   color: white;
-  font-size: 17px;
-  font-weight: lighter;
+  font-size: 19px;
+  font-weight: 500;
   padding-left: 120px;
 }
 
-/* Suggested Routes */
+/* Bus Lines and Destinations*/
 h2 {
   color: white;
   font-size: 17px;
-  font-weight: lighter;
+  font-weight: 200;
   margin-left: 19px;
 }
 
-/* Bus number */
+/* Bus number and destination name */
 h3 {
   margin-left: 19px;
   padding-top: 19px;
 }
 
-/* Destination */
+/* ETA if needed */
 h4 {
   float: right;
   font-weight: lighter;
@@ -61,6 +61,7 @@ h5 {
   font-size: 16px;
   font-weight: lighter;
   margin-left: 19px;
+  margin-top: 5px;
   padding-bottom: 19px;
 }
 
