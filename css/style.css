@@ -4,34 +4,41 @@
 
 * { margin: 0; padding: 0; }
 
+@font-face {
+  font-family: system;
+  src: url("/fonts/SF-Pro-Text-Regular.otf"), local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
 body {
   position: absolute;
   background-color: #ffffff;
-  font-family: sans-serif;
+  font-family: "system";
   left: 35%;
   line-height: 22px;
-}
-
-.bus-list {
-  font-size: 18px;
 }
 
 .container {
   font-size: 0;
   width: 375px;
+  margin-top: -6px;
 }
 
-/* Bus lines */
-.eastbound, .northbound, .southbound, .reroute, .out-of-service {
-  border-bottom: 1px solid #E6E6E6;
-  padding-right: 19px;
+/* Right arrow icon */
+.arrow-right {
+  float: right;
+  padding-top: 11px;
+}
+
+/* Back arrow icon */
+.back-arrow {
+  display: inline-block;
+  float: left;
 }
 
 /* Plan a trip */
 h1 {
-  color: white;
+  color: #ffffff;
   font-size: 19px;
-  font-weight: 500;
   padding-left: 120px;
 }
 
@@ -39,7 +46,7 @@ h1 {
 h2 {
   color: white;
   font-size: 17px;
-  font-weight: 200;
+  font-weight: 100;
   margin-left: 19px;
 }
 
@@ -65,16 +72,10 @@ h5 {
   padding-bottom: 19px;
 }
 
-/* Right arrow icon */
-.arrow-right {
-  float: right;
-  padding-top: 11px;
-}
-
-/* Back arrow icon */
-.back-arrow {
-  display: inline-block;
-  float: left;
+/* Bus lines */
+li.eastbound, li.northbound, li.southbound, li.reroute, li.out-of-service {
+  border-bottom: 1px solid #E6E6E6;
+  padding-right: 19px;
 }
 
 /* Location and pin icons */
@@ -114,7 +115,12 @@ h5 {
 /* List of bus line suggestions */
 .suggestions {
   background-color: #B0B0B0;
-  color: white;
+  color: #ffffff;
   height: 47px;
   padding-top: 12px;
+}
+
+ul.bus-list {
+  color: #000000;
+  font-size: 18px;
 }

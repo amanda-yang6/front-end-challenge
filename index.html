@@ -4,18 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BusyBus</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+  <section class="status-bar">
+    <img src="images/status-bar.svg" alt="status bar">
+  </section>
   <section class="container">
-    <div class="plan-a-trip">
+    <header class="plan-a-trip">
       <div class="back-arrow">
         <img src="images/back-arrow.svg" alt="back arrow">
       </div>
         <h1>Plan a trip</h1>
-    </div>
-    <div class="search">
+    </header>
+    <section class="search">
       <div class="Current-location">
         <div class="pin">
           <img src="images/pin.svg" alt="pin">
@@ -32,75 +35,66 @@
               <input type="text" placeholder="Washington and State">
             </div>
           </div>
-    </div>
-    <div class="suggestions">
+    </section>
+    <section class="suggestions">
       <h2>Bus Lines and Destinations</h2>
-    </div>
-    <div class="bus-list">
-      <div class="eastbound">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>60 <span style="font-size: 20px;font-weight:200">Randolph/Harbor Dr</span></h3>
-            <h5>Every <span style="color:#2b9d27;font-weight:800">20 min</span></h5>
-      </div>
-      <div class="eastbound">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>124 <span style="font-size: 20px;font-weight:200">Navy Pier</span></h3>
-            <h5>Every <span style="color:#2b9d27;font-weight:800">10 min</span></h5>
-      </div>
-      <div class="northbound">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>151 <span style="font-size: 20px;font-weight:200">Devon/Clark</span></h3>
-            <h5>Every <span style="color:#2b9d27;font-weight:800">16 min</span></h5>
-      </div>
-      <div class="southbound">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>J14 <span style="font-size: 20px;font-weight:200">103rd/Stony Island</span></h3>
-            <h5>Every <span style="color:#2b9d27;font-weight:800">15 min</span></h5>
-      </div>
-      <div class="southbound">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>124 <span style="font-size: 20px;font-weight:200">Nacy Pier</span></h3>
-            <h5>Every <span style="color:#2b9d27;font-weight:800">10 min</span></h5>
-      </div>
-      <div class="reroute">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>6x <span style="font-size: 20px;font-weight:200">Jackson Park Express</span></h3>
-            <h5>N/A</h5>
-      </div>
-      <div class="out-of-service">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>4 <span style="font-size: 20px;font-weight:200">Cottage Grove</span></h3>
-            <h5>Resumes 12:10am</h5>
-      </div>
-      <div class="out-of-service">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>20 <span style="font-size: 20px;font-weight:200">Madison</span></h3>
-            <h5>Resumes 12:10am</h5>
-      </div>
-      <div class="out-of-service">
-        <div class="arrow-right">
-          <img src="images/arrow-right.svg" alt="arrow right">
-        </div>
-          <h3>157 <span style="font-size: 20px;font-weight:200">Streetville/Taylor</span></h3>
-            <h5>Resumes 6:00am</h5>
-      </div>
-    </div>
+    </section>
+      <ul class="bus-list">
+        <li class="eastbound">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>60 <span style="font-size:17px;">Randolph/Harbor Dr</span></h3>
+              <h5>Every <span style="color:#2b9d27;font-weight:800">20 min</span></h5>
+        <li class="eastbound">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>124 <span style="font-size:17px;">Navy Pier</span></h3>
+              <h5>Every <span style="color:#2b9d27;font-weight:800">10 min</span></h5>
+        <li class="northbound">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>151 <span style="font-size:17px;">Devon/Clark</span></h3>
+              <h5>Every <span style="color:#2b9d27;font-weight:800">16 min</span></h5>
+        <li class="southbound">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>J14 <span style="font-size:17px;">103rd/Stony Island</span></h3>
+              <h5>Every <span style="color:#2b9d27;font-weight:800">15 min</span></h5>
+        <li class="southbound">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>124 <span style="font-size:17px;">Navy Pier</span></h3>
+              <h5>Every <span style="color:#2b9d27;font-weight:800">10 min</span></h5>
+        <li class="reroute">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>6x <span style="font-size:17px;">Jackson Park Express</span></h3>
+              <h5>N/A</h5>
+        <li class="out-of-service">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>4 <span style="font-size:17px;">Cottage Grove</span></h3>
+              <h5>Resumes 12:10am</h5>
+        <li class="out-of-service">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>20 <span style="font-size:17px;">Madison</span></h3>
+              <h5>Resumes 12:10am</h5>
+        <li class="out-of-service">
+          <div class="arrow-right">
+            <img src="images/arrow-right.svg" alt="arrow right">
+          </div>
+            <h3>157 <span style="font-size:17px;">Streetville/Taylor</span></h3>
+              <h5>Resumes 6:00am</h5>
+      </ul>
   </section>
   </body>
 </html>
